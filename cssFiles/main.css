@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: cairo , system-ui;
+    background: linear-gradient(#200016 , #10001f);
+    height: 100vh;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
