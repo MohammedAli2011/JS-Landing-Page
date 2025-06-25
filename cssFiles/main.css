@@ -12,4 +12,18 @@ body {
 
 a{
     text-decoration: none;
+    color: #fff;
+}
+
+/* header */
+header nav .container ul li a:hover {
+    background-color: #fff;
+    color: #200016;
+}
+.moon {
+    mix-blend-mode: screen;
+}
+.word {
+    transform: translateY(-190px);
+    font-size: 25px;
 }
