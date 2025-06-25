@@ -5,7 +5,7 @@
 
 body {
     font-family: cairo , system-ui;
-    background: linear-gradient(#200016 , #10001f);
+    background: linear-gradient(#10001f , #200016);
     height: 100vh;
     color: #fff;
 }
@@ -16,14 +16,22 @@ a{
 }
 
 /* header */
+header {
+    z-index: 100;
+}
 header nav .container ul li a:hover {
     background-color: #fff;
     color: #200016;
 }
-.moon {
+.moon2 {
     mix-blend-mode: screen;
+    transform: translateY(0px);
+    height: 800px;
 }
 .word {
     transform: translateY(-190px);
     font-size: 25px;
 }
+ .content {
+    background-color: #1a0817;
+ }
